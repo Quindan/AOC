@@ -1,5 +1,6 @@
 # Full Craft relation
-Intended for full relation, for exhaustivity sake and for AI use
+Intended for full relation, for exhaustivity sake and for AI use. Readibility will suffer. 
+For readibility, see the simplified version.
 
 ```mermaid
 graph TB
