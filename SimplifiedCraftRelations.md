@@ -1,5 +1,6 @@
 # Craft Relation
-Simplified version that should look good on mermaid viewer
+Simplified version that should look good on mermaid viewer, and stay that way.
+
 ```mermaid
 graph TB
 
@@ -30,6 +31,7 @@ subgraph Gathering
 
     G4[Hunting]:::gathering --> Animals
     G4 --> Carcass
+    G4 --> Cocoon
 
     G5[Fishing]:::gathering --> Fish
 
@@ -77,7 +79,7 @@ subgraph Processing
 
     P2[Metalworking]:::processing
     Metal_Ore --> P2
-    P2 --> Metal_Fragment/lingo:::material
+    P2 --> Metal_Fragment/ingot:::material
 
 
 
@@ -89,9 +91,11 @@ subgraph Processing
 
     P5[Weaving]:::processing
     Textile --> P5
+    Cocoon --> P5
     P5 --> Thread/bolt:::material
-	P5 --> Warp:::material
-	P5 --> Fiber:::material
+    P5 --> Warp:::material
+    P5 --> Fiber:::material
+    
 
     P6[Alchemy]:::processing
     Plants --> P6
@@ -131,11 +135,11 @@ subgraph Crafting
 
     C1[Weapon Smithing]:::crafting
     Lumber:::material --> C1
-    Metal_Fragment/lingo:::material --> C1
+    Metal_Fragment/ingot:::material --> C1
     C1 --> Weapons
 
     C2[Armor Smithing]:::crafting
-    Metal_Fragment/lingo:::material --> C2
+    Metal_Fragment/ingot:::material --> C2
     Leather:::material --> C2
     C2 --> Heavy_Armor
 
@@ -157,7 +161,7 @@ subgraph Crafting
 
     C6[Arcane Engineering]:::crafting
     Lumber:::material --> C6
-    Metal_Fragment/lingo:::material --> C6
+    Metal_Fragment/ingot:::material --> C6
 	C6 --> Survey_Pilon
     C6 --> Enchanting_Charm
     C6 --> Spell_book
@@ -167,7 +171,7 @@ subgraph Crafting
     C7[Jeweler]:::crafting
     Cut_Gems:::material --> C7
     Stone_Sand:::material --> C7
-    Metal_Fragment/lingo:::material --> C7
+    Metal_Fragment/ingot:::material --> C7
     C7 --> Jewel
 
     C8[Scribe]:::crafting
