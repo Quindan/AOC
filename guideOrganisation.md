@@ -240,7 +240,8 @@ Le crafting entre en compétition directe avec le farming de gear. L'intention d
 - **Farm d'XP /Farm d'équipement**
 - **Farm de ressource/craft**
 
-Le crafting semble être le moyen le plus sûr d'obtenir le meilleur équipement sans trop dépendre du hasard, surtout si nous mutualisons les ressources les plus rares. Cela est rendu possible grâce à des gatherers spécialisés qui focus sur le rareté, des processors fed qui augmente encore plus la rareté et des crafteurs fed. Chaque étape du process retire un peu de RNG et permet d'améliorer le résultat final.
+Le farm d'equipement semble le moyen le plus rapide d'avoir du vert et du bleu.
+Le crafting semble être le moyen le plus sûr d'obtenir les meilleurs équipements sans trop dépendre du hasard, surtout si nous mutualisons les ressources les plus rares. Cela est rendu possible grâce à des gatherers spécialisés qui focus sur le rareté, des processors fed qui augmente encore plus la rareté et des crafteurs fed. Chaque étape du process retire un peu de RNG et permet d'améliorer le résultat final.
 
 Imaginez d'un coté 50 joueurs qui gather dans leur coin, qui process dans leur coin, et craft dans leur coin et de l'autre des gens qui focus sur un seul gathering à la fois qui feed des processors.
 
@@ -261,13 +262,13 @@ En reconnaissant ces vulnérabilités, nous pouvons renforcer notre cohésion et
 
 **Avantages** :
 
-- **Progression Rapide** : Se concentrer sur un seul métier permet une montée en niveau plus rapide. Les bonus de rarité augment aussi l'xp.
+- **Progression Rapide** : Se concentrer sur un seul métier permet une montée en niveau plus rapide. Les bonus de rarité augment aussi l'xp. Cela sera surement amplifié avec la venue des skill tree d'artisan.
 - **Accès Anticipé aux Ressources de Haut Niveau** : Atteindre rapidement les tiers supérieurs réduit la compétition pour ces ressources.
 - **Optimisation des Ressources** : Les sacs et équipements spécialisés offrent des bonus maximisés lorsqu'ils sont dédiés à un seul type de ressource. On peut stacker 2 à 3 bonus de sacs selon les spécialités.
 
 **Inconvénients** :
 
-- **Attente des Bâtiments Appropriés** : La progression peut être ralentie en attendant que les bâtiments nécessaires pour fabriquer les outils de tiers supérieurs soient disponibles, empechant peut-être de benéficier de l'avance en XP obtenu.
+- **Attente des Bâtiments Appropriés** : La progression peut être ralentie en attendant que les bâtiments nécessaires pour fabriquer les outils de tiers supérieurs soient disponibles, empechant peut-être de benéficier des ressource de tier supérieurs malgré l'avance en XP obtenu. Cela n'empeche pas de bénéficié des bonus de sacs et plus tard de skill.
 - **Logistique Interpersonnelle Complexe** : Nécessite des échanges fréquents entre joueurs pour obtenir les matériaux dont ils ont besoin, ce qui complique la gestion.
   Chaque personne a plus de quantité de ressource et de meilleur rarité, mais il est dépendant des autre pour les Buy Order et les crafts. 
 - **Opportunité raté** On passe plus souvent à coté de ressource qu'on ne récolte pas, mais en équipe, tout les métiers devrait être couvert.
@@ -327,6 +328,146 @@ Il se trouve que c'est 3 métiers sont assez complémentaire et n'ont que peu d'
 
 **Approche du "Trickle-Down"** : Tout les crafts/loot ne sont pas soulbound. Aider les tops levelers de la guilde doit faire redescendre le bon stuff sur tout le reste de la guilde, donnant une dynamique d'aider les plus compétitif/hard leveler, tout en benéficiant à tout le monde.
 ---
+
+### Simple Combo for gatherer + processor)
+
+Hunt+Tanning
+Hunt+Animal Husbandry
+Hunt+Weaving (cocoon => silk)
+Hunt+Farming (farming beast for hunt = dropling)
+
+Herbalism+alchemy
+Herbalism+Farming
+Herbalism+Weaving
+
+Lumberjack+Milling
+
+Mining+stonemason
+Mining+metalworker 
+
+Fish+cooking
+
+# Path
+
+=> Quete de départ
+=> farmer quelques argent pour les sac de bases.
+=> Farming humanoid for initial gear 
+=> Farming beast for dropling+hunt for animal husbandry
+=> get some lumberjack and miner going
+=> Feed quelques personne dans l'animal husbandry (ils ont besoin d'argent, d'animaux, de temps et de la luck je crois) **à préciser**
+=> Get to level 10
+=> Les hard leveler: continue de pex et cherche les recettes. On les laisse pexé sauf si il y a opportunité de casser des caravanes adverses.
+=> Les autres :
+=> prendre un node ? 
+=> former la guilde ?
+=> get a carpenter up and running
+=> Make the first caravans
+=> Spam caravan while threat is low. If needed gatherer can gather along side the caravan for protection + gather mission.
+=> On utilise l'argent des caravanes pour soit acheter en masse du materiel ou soutenir l'animal husbandry.
+=> On stocke les next buy order / besoin en construction
+=> boost quelques processors pour améliorer les rendements en conservant le stock pour les buy order (les stations devraient de toute façon être le bottleneck)
+=> Utiliser tout le metal pour les outils (1 par personne, à trouver soit même) et ensuite on feed un joailler qui craft 5 pieces par personne.
+=> Utiliser tout les dropling pour feed quelques farmers
+=> Utiliser tout le tissu pour up des tailleurs et faire des set artisan pour chacun ? **pas sûr à tester la différence entre les rarités)**
+=> essayer de crafter un set le plus élévé que possible pour aider les hard leveler à faire la diff et à tomber les gros boss.
+
+```mermaid
+graph TD
+
+%% Définitions des classes
+classDef role fill:#ADD8E6,stroke:#333,stroke-width:1px,color:#000
+classDef processor fill:#90EE90,stroke:#333,stroke-width:1px,color:#000
+classDef crafter fill:#FFDAB9,stroke:#333,stroke-width:1px,color:#000
+
+%% Étapes Initiales
+subgraph Début
+    Q[Quête de départ] --> M[Farmer de l'argent pour les sacs de base]
+    M --> G[Farmer des humanoïdes pour le gear initial]
+    G --> B[Farmer des bêtes pour droplings et chasse pour l'Animal Husbandry]
+    B --> LM[Obtenir des bûcherons et mineurs]
+    LM --> AH[Investir l'argent dans l'Animal Husbandry]
+    AH --> LVL10[Atteindre le niveau 10]
+end
+
+%% Hard Levelers
+LVL10 -->|Hard levelers| HL[Continuer à pex et chercher les recettes]
+HL --> OPP[Opportunités de casser des caravanes adverses]
+
+%% Autres Joueurs
+LVL10 -->|Les autres| AUTRES[Actions des autres]
+
+%% Actions des autres
+AUTRES --> N[Prendre un node]
+AUTRES --> PREP_OUTILS[Préparer son prochain outil]
+AUTRES --> MINER[Miner]
+AUTRES --> BUCHERON[Bûcheron]
+AUTRES --> HUNT[Chasseur]
+AUTRES --> FEED_MONEY[Donner de l'argent à l'éleveur]
+
+%% Actions des Mineurs
+subgraph Actions_des_Mineurs
+    direction LR
+    MINER --> GUILD[Miner des rubis pour créer la guilde]
+    MINER --> STOCK_BUY[Préparer les stocks pour les buy orders en matières brutes]
+    MINER --> METALWORKER[Donner le reste au métallurgiste]
+end
+
+%% Actions du Métallurgiste
+METALWORKER --> JEWELER[Alimenter le joaillier]
+
+%% Actions du Joaillier
+JEWELER --> EQUIP[Craft de 5 pièces par personne]
+
+%% Actions des Bûcherons
+subgraph Actions_des_Bûcherons
+    direction LR
+    BUCHERON --> CARP[Charpentier]
+    CARP --> CARAVAN[Créer la première caravane]
+    CARAVAN --> STOCK_WOOD[Stocker le reste du bois pour les buy orders]
+    STOCK_WOOD --> FEED_MILLER[Booster quelques lumbermiller]
+end
+
+%% Élevage
+HUNT --> FEED_ANIMALS[Les chasseurs donnent des animaux à l'éleveur]
+HUNT --> STOCK_CARCASS[Stock carcass pour les buy orders]
+AUTRES  --> FARMERS[Utiliser les droplings pour le farming]
+FARMERS --> TAILORS[Utiliser le tissu pour monter des tailleurs]
+TAILORS --> SETS[Fabriquer des sets artisans pour les crafter]
+FEED_MONEY --> ELEVAGE[Éleveur Animal Husbandry]
+FEED_ANIMALS --> ELEVAGE
+ELEVAGE --> BEAST[Première bête de somme pour tirer la caravane]
+BEAST --> CARAVAN
+
+%% Exploitation des Caravanes
+CARAVAN --> SPAM[Spammer les caravanes tant que la menace est faible]
+SPAM --> PROTECT[Les gatherers accompagnent pour protection et gathering]
+CARAVAN --> MONEY[Utiliser l'argent des caravanes]
+MONEY --> BUY[Acheter du matériel en masse]
+MONEY --> SUPPORT_AH[Soutenir l'Animal Husbandry]
+
+%% Gestion des Ressources
+BUY --> STOCK_TOTAL[Stocker pour les prochains buy orders et constructions]
+STOCK_TOTAL --> PROCESSORS[Booster quelques processors avec ce qui reste]
+
+%% Développement des Autres Métiers
+MONEY --> PL_Crafter[Monter les crafteur]
+PL_Crafter --> HIGHSET[Crafter le set le plus élevé possible]
+HIGHSET --> HELP[Aider les hard levelers à tomber les gros boss]
+
+%% Attribution des rôles et classes
+class MINER role
+class HUNT role
+class BUCHERON role
+
+class METALWORKER processor
+class FEED_MILLER processor
+class ELEVAGE processor
+class FARMERS processor
+
+class JEWELER crafter
+class TAILORS crafter
+class CARP crafter
+```
 
 ## 9. Importance des Tests Avant la Release
 
