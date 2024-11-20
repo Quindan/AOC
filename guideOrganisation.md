@@ -327,8 +327,6 @@ Il se trouve que c'est 3 métiers sont assez complémentaire et n'ont que peu d'
 - **Les outils** : Il est interessant d'utiliser la qualité maximum disponible pour créer son outil, mais pas il faut pas se concentrer dessus, car les outils changent à chaque pallier de toute façon.
 ---
 
-**session de gather lors de l'accompagnment de caravane** :
-
 **Approche du "Trickle-Down"** : Tout les crafts/loot ne sont pas soulbound. Aider les tops levelers de la guilde doit faire redescendre le bon stuff sur tout le reste de la guilde, donnant une dynamique d'aider les plus compétitif/hard leveler, tout en benéficiant à tout le monde.
 ---
 
