@@ -335,21 +335,37 @@ Il se trouve que c'est 3 métiers sont assez complémentaire et n'ont que peu d'
 # Path
 
 => Quete de départ
+
 => farmer quelques argent pour les sac de bases.
+
 => Farming humanoid for initial gear 
+
 => Farming beast for dropling+hunt for animal husbandry
+
 => get some lumberjack and miner going
+
 => Feed quelques personne dans l'animal husbandry (ils ont besoin d'argent, d'animaux, de temps et de la luck je crois) **à préciser**
+
 => Get to level 10
+
 => Les hard leveler: continue de pex et cherche les recettes. On les laisse pexé sauf si il y a opportunité de casser des caravanes adverses.
+
 => Les autres :
+
 => prendre un node ? 
+
 => former la guilde ?
+
 => Make the first caravans
+
 => Spam caravan while threat is low. If needed gatherer can gather along side the caravan for protection + gather mission.
+
 => On utilise l'argent des caravanes pour soit acheter en masse du materiel ou soutenir l'animal husbandry.
+
 => On stocke les next buy order / besoin en construction
+
 => boost quelques processors pour améliorer les rendements en conservant le stock pour les buy order (les stations devraient de toute façon être le bottleneck)
+
 => Utiliser tout le metal pour les outils (1 par personne, à trouver soit même) et ensuite on feed un joailler qui craft 5 pieces par personne.
 
 ==> essayer de crafter un set le plus élévé que possible pour aider les hard leveler à faire la diff et à tomber les gros boss.
