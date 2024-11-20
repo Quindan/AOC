@@ -1,4 +1,4 @@
-# Guide Stratégique pour l'Organisation de la Guilde lors de la Release
+# Guide Stratégique pour l'Organisation de la Guilde lors des wipes/fresh server
 
 **Introduction**
 
