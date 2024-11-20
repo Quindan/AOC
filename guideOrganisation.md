@@ -215,14 +215,6 @@ graph TD
     C1 --> L1[Continuer la progression en Gathering ]
     L1 --> L2[Optionnel: Obtenir le shirt et pant d'apprenti, prendre les sacs spécialisé d'apprenti]
 
-    %% Styles
-    classDef quest fill:#f9f,stroke:#333,stroke-width:2px;
-    classDef tools fill:#8FBC8F,stroke:#333,stroke-width:2px;
-    classDef optional fill:#FFD700,stroke:#333,stroke-width:2px;
-    classDef xp fill:#ADD8E6,stroke:#333,stroke-width:2px;
-    classDef certificate fill:#FFB6C1,stroke:#333,stroke-width:2px;
-    classDef building fill:#FFA07A,stroke:#333,stroke-width:2px;
-    classDef progression fill:#DAA520,stroke:#333,stroke-width:2px;
 
     class Q1 quest;
     class Q1,T1,M1,C1 tools;
