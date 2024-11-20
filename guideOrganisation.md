@@ -245,7 +245,7 @@ Le crafting semble être le moyen le plus sûr d'obtenir les meilleurs équipeme
 
 Imaginez d'un coté 50 joueurs qui gather dans leur coin, qui process dans leur coin, et craft dans leur coin et de l'autre des gens qui focus sur un seul gathering à la fois qui feed des processors.
 
-__DANS LE MEME TEMPS__, les premiers n'auront ni la quantité (encombrement difficile à gerer ou obligeant à faire plus d'aller retour), pas autant de matériaux rare (par manque de bonus sac et bonus de processing), et des craft pas autant poussé que les seconds.
+_Dans le même temps_, les premiers n'auront ni la quantité (encombrement difficile à gerer ou obligeant à faire plus d'aller retour), ni autant de matériaux rare (par manque de bonus sac et bonus de processing), et des craft pas autant poussé que les seconds.
 
 Cependant, ce que nous gagnons en efficacité collective, nous le perdons en autonomie individuelle,. 
 Cette approche repose fortement sur la confiance entre les membres de la guilde, ce qui nous rend vulnérables par design aux frictions sociales, au "bus factor" (le risque que des membres clés deviennent indisponibles) et à la trahison. 
@@ -265,6 +265,7 @@ En reconnaissant ces vulnérabilités, nous pouvons renforcer notre cohésion et
 - **Progression Rapide** : Se concentrer sur un seul métier permet une montée en niveau plus rapide. Les bonus de rarité augment aussi l'xp. Cela sera surement amplifié avec la venue des skill tree d'artisan.
 - **Accès Anticipé aux Ressources de Haut Niveau** : Atteindre rapidement les tiers supérieurs réduit la compétition pour ces ressources.
 - **Optimisation des Ressources** : Les sacs et équipements spécialisés offrent des bonus maximisés lorsqu'ils sont dédiés à un seul type de ressource. On peut stacker 2 à 3 bonus de sacs selon les spécialités.
+- **Eco metal** : 1 seul gather par personne, c'est un seul outil par personne, une bonne economie pour les premiers outils.
 
 **Inconvénients** :
 
@@ -301,6 +302,8 @@ En reconnaissant ces vulnérabilités, nous pouvons renforcer notre cohésion et
 - **Optimisation de la Progression** : Les joueurs spécialisés atteindront les tiers supérieurs plus rapidement, bénéficiant à l'ensemble de la guilde.
 - **Flexibilité à Long Terme** : Une fois les métiers principaux maîtrisés, les joueurs pourront diversifier leurs compétences.
 
+Chacun fait comme il veut, c'est un jeu. Ceux qui se diversifie seront plus polyvalent, c'est ça de gagné.
+
 ---
 
 ### Priorisation des Processors
@@ -308,7 +311,7 @@ En reconnaissant ces vulnérabilités, nous pouvons renforcer notre cohésion et
 - **Investissement Collectif** : Identifier les processors à prioriser et concentrer les ressources pour les monter rapidement. 
 - **Praticité des Stations** : Les gros lots de traitement sont plus pratiques, surtout pour rassembler les éléments rares. Bien qu'il n'y ait pas de grande différence de rentabilité en termes de ressources, cela permet une gestion du temps plus efficace.
 - **Nécessité des Buy Orders** : Les bâtiments de la node nécessitent beaucoup de matériaux bruts au début, ce qui entre en concurrence avec les besoins des processors. Stocker une partie des matériaux bruts avant de les traiter permet de répondre aux Buy Orders tout en bénéficiant du bonus de stacking dans les entrepôts.
-- **Risques de Gestion** : Centraliser les ressources peut présenter un risque de "bus factor" ou de trahison. Il faut concentrer les ressources pas sur une personne mais sur quelques personnes pour diliuer ce risque.
+- **Risques de Gestion** : Centraliser les ressources peut présenter un risque de "bus factor" ou de trahison. Il faut concentrer les ressources pas uniquement sur une seule personne mais sur plusieurs pour diliuer ce risque.
 - Il est de toute façon difficile de se retrouver tous en ville tous en même temps sans perdre de temps.
 - On fait simple, on prend la liste de priorité et on prend le premier qui est en ville en ce moment là. Ca dilue le risque, permet de concentrer les ressources un maximum, permet de bien utilisé les stations et tout en restant pratique pour tout lee monde.
 
@@ -321,31 +324,13 @@ En reconnaissant ces vulnérabilités, nous pouvons renforcer notre cohésion et
 Il se trouve que c'est 3 métiers sont assez complémentaire et n'ont que peu d'overlap de besoin.
 
 
-- **Les outils** : Il est interessant d'utiliser la qualité maximum disponible pour créer son outil, mais pas il faut pas se concentrer dessus, car les outils changent à chaque pallier.
+- **Les outils** : Il est interessant d'utiliser la qualité maximum disponible pour créer son outil, mais pas il faut pas se concentrer dessus, car les outils changent à chaque pallier de toute façon.
 ---
 
 **session de gather lors de l'accompagnment de caravane** :
 
 **Approche du "Trickle-Down"** : Tout les crafts/loot ne sont pas soulbound. Aider les tops levelers de la guilde doit faire redescendre le bon stuff sur tout le reste de la guilde, donnant une dynamique d'aider les plus compétitif/hard leveler, tout en benéficiant à tout le monde.
 ---
-
-### Simple Combo for gatherer + processor)
-
-Hunt+Tanning
-Hunt+Animal Husbandry
-Hunt+Weaving (cocoon => silk)
-Hunt+Farming (farming beast for hunt = dropling)
-
-Herbalism+alchemy
-Herbalism+Farming
-Herbalism+Weaving
-
-Lumberjack+Milling
-
-Mining+stonemason
-Mining+metalworker 
-
-Fish+cooking
 
 # Path
 
@@ -360,16 +345,14 @@ Fish+cooking
 => Les autres :
 => prendre un node ? 
 => former la guilde ?
-=> get a carpenter up and running
 => Make the first caravans
 => Spam caravan while threat is low. If needed gatherer can gather along side the caravan for protection + gather mission.
 => On utilise l'argent des caravanes pour soit acheter en masse du materiel ou soutenir l'animal husbandry.
 => On stocke les next buy order / besoin en construction
 => boost quelques processors pour améliorer les rendements en conservant le stock pour les buy order (les stations devraient de toute façon être le bottleneck)
 => Utiliser tout le metal pour les outils (1 par personne, à trouver soit même) et ensuite on feed un joailler qui craft 5 pieces par personne.
-=> Utiliser tout les dropling pour feed quelques farmers
-=> Utiliser tout le tissu pour up des tailleurs et faire des set artisan pour chacun ? **pas sûr à tester la différence entre les rarités)**
-=> essayer de crafter un set le plus élévé que possible pour aider les hard leveler à faire la diff et à tomber les gros boss.
+
+==> essayer de crafter un set le plus élévé que possible pour aider les hard leveler à faire la diff et à tomber les gros boss.
 
 ```mermaid
 graph TD
@@ -469,6 +452,25 @@ class TAILORS crafter
 class CARP crafter
 ```
 
+---
+
+### Simple Combo for gatherer + processor)
+
+Hunt+Tanning
+Hunt+Animal Husbandry
+Hunt+Weaving (cocoon => silk)
+Hunt+Farming (farming beast for hunt = dropling)
+
+Herbalism+alchemy
+Herbalism+Farming
+Herbalism+Weaving
+
+Lumberjack+Milling
+
+Mining+stonemason
+Mining+metalworker 
+
+Fish+cooking
 ## 9. Importance des Tests Avant la Release
 
 - **Profiter des Wipes** : Utiliser les phases de test pour expérimenter différentes stratégies.
